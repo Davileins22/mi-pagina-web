@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <!-- Vinculamos el archivo CSS aquí -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <div class="intro">
+            <h1>Hola, soy Oscar Davila</h1>
+            <p>Bienvenido a mi portafolio personal. Soy desarrollador web con pasión por crear aplicaciones interactivas.</p>
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Soy un desarrollador web con experiencia en HTML, CSS y JavaScript. Me apasiona crear soluciones tecnológicas para problemas cotidianos.</p>
+
+    </section>
+
+    <!-- Sección de proyectos -->
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos">
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>crear paginas web enfocadas a empresas.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 2.</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu correo" required>
+            <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+        </form>
+        <div id="respuesta"></div>
+    </section>
+
+    <!-- Vinculamos el archivo JavaScript aquí -->
+    <script src="script.js"></script>
+</body>
+</html>
